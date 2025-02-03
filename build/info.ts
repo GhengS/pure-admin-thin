@@ -6,8 +6,11 @@ import duration from "dayjs/plugin/duration";
 import boxen, { type Options as BoxenOptions } from "boxen";
 dayjs.extend(duration);
 
+// https://pure-admin.cn
+// https://pure-admin-utils.netlify.app
 const welcomeMessage = gradient(["cyan", "magenta"]).multiline(
-  `您好! 欢迎使用 pure-admin 开源项目\n我们为您精心准备了下面两个贴心的保姆级文档\nhttps://pure-admin.cn\nhttps://pure-admin-utils.netlify.app`
+  `pure-admin
+  `
 );
 
 const boxenOptions: BoxenOptions = {
